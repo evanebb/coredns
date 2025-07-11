@@ -1,0 +1,6 @@
+.github/
+bin/
+.dockerignore
+.gitignore
+Dockerfile
+*.md
