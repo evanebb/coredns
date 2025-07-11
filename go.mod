@@ -3,6 +3,12 @@ module github.com/evanebb/coredns
 go 1.24
 
 require (
+	github.com/coredns/caddy v1.1.2-0.20241029205200-8de985351a98
+	github.com/coredns/coredns v1.12.2
+	github.com/evanebb/coredns-mikrotik-dhcp v0.0.1
+)
+
+require (
 	cloud.google.com/go/auth v0.16.1 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.8 // indirect
 	cloud.google.com/go/compute/metadata v0.7.0 // indirect
@@ -52,8 +58,6 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cihub/seelog v0.0.0-20170130134532-f561c5e57575 // indirect
-	github.com/coredns/caddy v1.1.2-0.20241029205200-8de985351a98 // indirect
-	github.com/coredns/coredns v1.12.2 // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
@@ -63,7 +67,6 @@ require (
 	github.com/eapache/queue/v2 v2.0.0-20230407133247-75960ed334e4 // indirect
 	github.com/ebitengine/purego v0.8.2 // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
-	github.com/evanebb/coredns-mikrotik-dhcp v0.0.0-20250704150706-c5cb2fd5c515 // indirect
 	github.com/expr-lang/expr v1.17.4 // indirect
 	github.com/farsightsec/golang-framestream v0.3.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
